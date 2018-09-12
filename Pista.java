@@ -9,6 +9,10 @@ package Quest3;
  *
  * @author stranger
  */
-public class Pista {
-    
+public class Pista extends Ingresso{
+
+     @Override
+    public void imprimevalor(){
+        JOptionPane.showMessageDialog("O ingresso custa " + getPreco());
+    }
 }
