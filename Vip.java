@@ -11,24 +11,22 @@ import javax.swing.JOptionPane;
  *
  * @author stranger
  */
-public class Vip {
+public class Vip extends Ingresso {
     
     private float valoradc;
-    
-    public float getValoradc(){
-        return valoradc;
+   
+    public float getValorAdc(){
+        return valorAdc;
     }
     
-    //public void setValoradc(float valoradc){
-      //  this.valoradc= valoradc;
-    //}
-    public void Ingresso(){
-        JOptionPane.showMessageDialog(null, "valor e tipo");
+    public void setValorAdicional(float valorAdc){
+        this.valorAdc = valorAdc;
     }
     
-    public void setValoradc(float valoradc){
-    
-        this.valoradc= valoradc;
+    @Override
+   public void imprimevalor(){
+       float valor = (getPreco() + getValorAdc());
+        System.out.println("O ingresso pra Area Vip " + valor);
     }
 
 }
