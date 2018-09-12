@@ -9,7 +9,7 @@ package Quest3;
  *
  * @author stranger
  */
-public class Ingresso {
+public class abstract Ingresso {
     private float valor;
     
     public void valor(){    
@@ -21,5 +21,8 @@ public class Ingresso {
     
     public void setValor(float valor){
         this.valor= valor;
+    }
+      public void imprimevalor(){
+       JOptionPane.showMessageDialog("O ingresso custa " + getPreco());
     }
 }
