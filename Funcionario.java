@@ -20,7 +20,7 @@ public class Funcionario extends Assistente {
         
         JOptionPane.showMessageDialog(null +getNmatricula());
     }
-  "OLA mundo""OLA mundo"
+  
     
   
     
