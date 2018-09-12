@@ -15,7 +15,6 @@ public class CamaroteInferior extends Vip{
     public String getLocalizacao(){
         return localizacao;
     }
-    
-   // public void 
+   
     
 }
