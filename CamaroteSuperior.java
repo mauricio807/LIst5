@@ -9,7 +9,7 @@ package Quest3;
  *
  * @author stranger
  */
-public class CamaroteSuperior {
+public class CamaroteSuperior extends Vip{
   private float caro;
     
     public float getValor(){
