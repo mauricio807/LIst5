@@ -14,9 +14,10 @@ public class CamaroteInferior extends Vip{
     
     public String getLocalizacao(){
         return localizacao;
+        JoptionPane.showMessageDialog("Sua localização é " + getLocalizacao());
         
     }
     
-   JoptionPane.showMessageDialog("Sua localização é " + getLocalizacao());
+   
     
 }
